@@ -6,7 +6,8 @@ require_relative 'linkedin_page'
 require_relative 'records'
 
 # initialize
-config_reader = YAML::load_file '/Path/to/your/properties/file'
+config_file_path = YAML::load_file '.config_file_path'
+config_reader = YAML::load_file config_file_path["path"]
 browser = Watir::Browser.new :chrome
 logger = Logger.new(STDOUT)
 linkedin_page = LinkedinPage.new(browser, logger)
