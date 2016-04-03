@@ -16,6 +16,10 @@ To install it, check out : http://watir.com/installation/
 ### Customize Configuration File
 
 * Change properties.config.yml.template to properties.config.yml
+* Change the file path in .config_file_path to the path of properties.config.yml file:
+```bash
+path: '/root/path/to/properties.config.yml'
+```
 * Put your configuration into properties.config.yml file; Make sure you are using white spaces instead of tab for the indent
 
 
