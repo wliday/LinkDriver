@@ -89,8 +89,16 @@ class LinkedinPage
 		li.link(:class => 'title').text
 	end
 
+	def name_exist? li
+		li.link(:class => 'title').exist?
+	end
+
 	def description_of_person li
 		li.div(:class => 'description').text
+	end
+
+	def description_exist? li
+		li.div(:class => 'description').exist?
 	end
 
 	def blue_button_exists? li
