@@ -31,24 +31,29 @@ linkedin_page.search_result_page.wait_until_present
 
 # Set filters
 filters = config_reader["search"]["filters"]
+logger.info("started setting up filters")
 filters.each do |key, value|
 	case key
 	when 'type'
 		linkedin_page.search_type_selector(value).click unless value.nil?
 		Watir::Wait.while {linkedin_page.search_loading}
+		logger.info("set type as #{value}")
 	when 'relationship_to_uncheck'
 		value.split(DELIMITER).each do |val|
 			linkedin_page.search_relationship_selector(val).clear
+			logger.info("unchecked relationship #{val}")
 			Watir::Wait.while {linkedin_page.search_loading}
 		end
 	when 'relationship_to_check'
 		value.split(DELIMITER).each do |val|
 			linkedin_page.search_relationship_selector(val).set
+			logger.info("checked relationship #{val}")
 			Watir::Wait.while {linkedin_page.search_loading}
 		end		
 	when 'location'
 		value.split(DELIMITER).each do |val|
 			linkedin_page.search_locations(val).set
+			logger.info("set location as #{val}")
 			Watir::Wait.while {linkedin_page.search_loading}
 		end	
 	else
@@ -59,6 +64,7 @@ end
 # start sending invitation
 index = 0
 page = 1
+logger.info("started sending invitation")
 while true
 	begin
 		results = linkedin_page.search_results(index)
