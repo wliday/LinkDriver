@@ -20,6 +20,10 @@ To install it, check out : http://watir.com/installation/
 ```bash
 path: '/root/path/to/properties.config.yml'
 ```
+* Download Chrome Driver Executable from here:
+```bash
+http://chromedriver.storage.googleapis.com/index.html
+```
 * Put your configuration into properties.config.yml file; Make sure you are using white spaces instead of tab for the indent
 
 
