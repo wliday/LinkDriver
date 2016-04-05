@@ -26,6 +26,12 @@ http://chromedriver.storage.googleapis.com/index.html
 ```
 * Put your configuration into properties.config.yml file; Make sure you are using white spaces instead of tab for the indent
 
+### Start running
+
+* To run this program, you need to go to your terminal, change the directory to the root folder of this project, then run
+```bash
+ruby step_entry_point.rb
+```
 
 ## License
 
