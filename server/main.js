@@ -13,7 +13,7 @@ Meteor.methods({
 	'generateConfigJSON': function(configJSON) {
 		console.log(JSON.stringify("Generating Config JSON for user: " + configJSON));
 		var jsonfile = require('jsonfile');
-		var file = process.env.PWD + '/properties.config.json';
+		var file = process.env.PWD + '/private/properties.config.json';
 
 		jsonfile.writeFile(file, configJSON, function (err){
 			console.error(err);
