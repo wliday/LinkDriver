@@ -2,3 +2,4 @@ node_modules/
 properties.config.json
 records.txt
 .config_file_path
+private/
