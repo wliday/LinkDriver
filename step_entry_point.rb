@@ -1,13 +1,14 @@
 require 'watir-webdriver'
 require 'set'
-require 'yaml'
+require 'json'
 require 'logger'
 require_relative 'linkedin_page'
 require_relative 'records'
 
 # initialize
-config_file_path = YAML::load_file '.config_file_path'
-config_reader = YAML::load_file config_file_path["path"]
+current_dir = File.expand_path(File.dirname(__FILE__))
+config_file_path = JSON.parse(File.read("#{current_dir}/.config_file_path")) 
+config_reader = JSON.parse(File.read(config_file_path["path"]))
 browser = Watir::Browser.new :chrome
 logger = Logger.new(STDOUT)
 linkedin_page = LinkedinPage.new(browser, logger)

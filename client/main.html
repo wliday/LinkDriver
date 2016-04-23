@@ -1,0 +1,52 @@
+<head>
+  <title>LinkDriver</title>
+</head>
+
+<body>
+  <h1>Welcome to LinkDriver</h1>
+
+  {{> configForm}}
+</body>
+
+<template name="configForm">
+  <form id="">
+    <div>
+      <label>Username</label>
+      <input type="text" id="username" name="username"/>
+    </div>
+    <div>
+      <label>Password</label>
+      <input type="password" id="passwrod" name="password"/>
+    </div>
+    <div>
+      <label>Keywords</label>
+      <input type="text" id="keywords" name="keywords">
+    </div>
+    <div>
+      <label>Filters</label>
+    </div>
+    <div>
+      <label>Type of Connection</label>
+      <select name="type">
+        <option value="People">People</option>
+        <option value="Companies">Companies</option>
+      </select>
+    </div>
+    <div>
+      <label>Relationship to check</label>
+      <div>
+        <input class="relationship" type="checkbox" name="relationshipToCheck" value="1" {{isChecked}}/> 1st Connections<br>
+        <input class="relationship" type="checkbox" name="relationshipToCheck" value="2" {{isChecked}}/> 2nd Connections<br>
+        <input class="relationship" type="checkbox" name="relationshipToCheck" value="3" {{isChecked}}/> 3rd Connections<br>
+        <input class="relationship" type="checkbox" name="relationshipToCheck" value="g" {{isChecked}}/> Group Members<br>
+      </div>
+    </div>
+    <div>
+      <label>Location</label>
+      <select name="location">
+        <option value="us:0-G-ffs">United States</option>
+      </select>
+    </div>
+    <button type="submit">Submit</button>
+  </form>
+</template>
