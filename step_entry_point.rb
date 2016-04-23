@@ -8,7 +8,7 @@ require_relative 'records'
 # initialize
 current_dir = File.expand_path(File.dirname(__FILE__))
 config_file_path = JSON.parse(File.read("#{current_dir}/.config_file_path")) 
-config_reader = JSON.parse(File.read(config_file_path["path"]))
+config_reader = JSON.parse(File.read("#{current_dir}/#{config_file_path['path']}"))
 browser = Watir::Browser.new :chrome
 logger = Logger.new(STDOUT)
 linkedin_page = LinkedinPage.new(browser, logger)
