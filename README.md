@@ -6,8 +6,7 @@ LinkDriver is a tool for connecting people with their interested Linkedin users 
 
 ## Getting Started Guide
 
-Steps:
-1. install ruby, watir
+1) install ruby, watir
 
 http://watir.com/installation/
 
@@ -16,13 +15,13 @@ brew install ruby
 gem install watir
 ```
 
-2. Change properties.config.yml.template to properties.config.yml
+2) Change properties.config.yml.template to properties.config.yml
 Put your configuration into properties.config.yml file; Make sure you are using white spaces instead of tab for the indent
-3. Change the file path in .config_file_path to the path of properties.config.yml file:
+3) Change the file path in .config_file_path to the path of properties.config.yml file:
 ```bash
 path: '/root/path/to/properties.config.yml'
 ```
-4. Download Chrome Driver Executable from here:
+4) Download Chrome Driver Executable from here:
 ```bash
 http://chromedriver.storage.googleapis.com/index.html
 ```
