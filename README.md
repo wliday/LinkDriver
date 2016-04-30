@@ -19,6 +19,8 @@ gem install watir
 
 Put your configuration into properties.config.yml file; Make sure you are using white spaces instead of tab for the indent
 
+You could choose parameters in property_lists.txt
+
 3) Change the file path in .config_file_path to the path of properties.config.yml file:
 ```bash
 path: '/root/path/to/properties.config.yml'

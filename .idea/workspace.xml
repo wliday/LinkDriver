@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ddc571b-593c-4f08-a657-8d7511801115" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="linkedin-connector.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,7 +28,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="76">
@@ -48,12 +48,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="323">
-                <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+              <first_editor relative-caret-position="171">
+                <caret line="21" column="49" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="49" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -75,7 +75,7 @@
         <entry file="file://$PROJECT_DIR$/records.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="648" column="0" selection-start-line="648" selection-start-column="0" selection-end-line="648" selection-end-column="0" />
+              <caret line="974" column="0" selection-start-line="974" selection-start-column="0" selection-end-line="974" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -127,12 +127,12 @@
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <marker date="1462045466000" expanded="true" signature="59:41845" placeholder="..." />
-                <marker date="1462045466000" expanded="true" signature="98:192" placeholder="..." />
-                <marker date="1462045466000" expanded="true" signature="41769:41788" placeholder="..." />
-                <marker date="1462045466000" expanded="true" signature="41769:41806" placeholder="..." />
-                <marker date="1462045466000" expanded="true" signature="41769:41819" placeholder="..." />
-                <marker date="1462045466000" expanded="true" signature="41769:41834" placeholder="..." />
+                <marker date="1462045557000" expanded="true" signature="59:41973" placeholder="..." />
+                <marker date="1462045557000" expanded="true" signature="98:192" placeholder="..." />
+                <marker date="1462045557000" expanded="true" signature="41897:41916" placeholder="..." />
+                <marker date="1462045557000" expanded="true" signature="41897:41934" placeholder="..." />
+                <marker date="1462045557000" expanded="true" signature="41897:41947" placeholder="..." />
+                <marker date="1462045557000" expanded="true" signature="41897:41962" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -149,8 +149,8 @@
         <option value="$PROJECT_DIR$/.config_file_path" />
         <option value="$PROJECT_DIR$/parameter.txt" />
         <option value="$PROJECT_DIR$/properties.config.yml" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -402,12 +402,12 @@
       <workItem from="1462038885642" duration="178000" />
       <workItem from="1462039164428" duration="1678000" />
       <workItem from="1462041828860" duration="191000" />
-      <workItem from="1462042026177" duration="1622000" />
+      <workItem from="1462042026177" duration="1726000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3775000" />
+    <option name="totallyTimeSpent" value="3879000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -563,12 +563,12 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1462045466000" expanded="true" signature="59:41845" placeholder="..." />
-            <marker date="1462045466000" expanded="true" signature="98:192" placeholder="..." />
-            <marker date="1462045466000" expanded="true" signature="41769:41788" placeholder="..." />
-            <marker date="1462045466000" expanded="true" signature="41769:41806" placeholder="..." />
-            <marker date="1462045466000" expanded="true" signature="41769:41819" placeholder="..." />
-            <marker date="1462045466000" expanded="true" signature="41769:41834" placeholder="..." />
+            <marker date="1462045557000" expanded="true" signature="59:41973" placeholder="..." />
+            <marker date="1462045557000" expanded="true" signature="98:192" placeholder="..." />
+            <marker date="1462045557000" expanded="true" signature="41897:41916" placeholder="..." />
+            <marker date="1462045557000" expanded="true" signature="41897:41934" placeholder="..." />
+            <marker date="1462045557000" expanded="true" signature="41897:41947" placeholder="..." />
+            <marker date="1462045557000" expanded="true" signature="41897:41962" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -672,7 +672,7 @@
     <entry file="file://$PROJECT_DIR$/records.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="648" column="0" selection-start-line="648" selection-start-column="0" selection-end-line="648" selection-end-column="0" />
+          <caret line="974" column="0" selection-start-line="974" selection-start-column="0" selection-end-line="974" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -690,12 +690,12 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1462045466000" expanded="true" signature="59:41845" placeholder="..." />
-            <marker date="1462045466000" expanded="true" signature="98:192" placeholder="..." />
-            <marker date="1462045466000" expanded="true" signature="41769:41788" placeholder="..." />
-            <marker date="1462045466000" expanded="true" signature="41769:41806" placeholder="..." />
-            <marker date="1462045466000" expanded="true" signature="41769:41819" placeholder="..." />
-            <marker date="1462045466000" expanded="true" signature="41769:41834" placeholder="..." />
+            <marker date="1462045557000" expanded="true" signature="59:41973" placeholder="..." />
+            <marker date="1462045557000" expanded="true" signature="98:192" placeholder="..." />
+            <marker date="1462045557000" expanded="true" signature="41897:41916" placeholder="..." />
+            <marker date="1462045557000" expanded="true" signature="41897:41934" placeholder="..." />
+            <marker date="1462045557000" expanded="true" signature="41897:41947" placeholder="..." />
+            <marker date="1462045557000" expanded="true" signature="41897:41962" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -732,11 +732,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="323">
-            <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+          <first_editor relative-caret-position="171">
+            <caret line="21" column="49" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="49" />
             <folding />
           </first_editor>
           <second_editor />
@@ -745,14 +753,6 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
