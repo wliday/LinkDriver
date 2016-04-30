@@ -16,6 +16,7 @@ gem install watir
 ```
 
 2) Change properties.config.yml.template to properties.config.yml
+
 Put your configuration into properties.config.yml file; Make sure you are using white spaces instead of tab for the indent
 
 3) Change the file path in .config_file_path to the path of properties.config.yml file:
