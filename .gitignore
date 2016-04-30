@@ -3,3 +3,5 @@ records.txt
 *.config_file_path
 .idea/
 *.xml
+.idea
+*.iml
