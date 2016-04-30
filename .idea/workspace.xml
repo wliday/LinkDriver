@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ddc571b-593c-4f08-a657-8d7511801115" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.config_file_path" afterPath="$PROJECT_DIR$/.config_file_path" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LICENSE" afterPath="$PROJECT_DIR$/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/linkedin_page.rb" afterPath="$PROJECT_DIR$/linkedin_page.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/records.rb" afterPath="$PROJECT_DIR$/records.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="linkedin-connector.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,6 +28,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="linkedin_page.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/linkedin_page.rb">
           <provider selected="true" editor-type-id="text-editor">
@@ -52,16 +58,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="records.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/records.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -75,7 +71,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="step_entry_point.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="step_entry_point.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/step_entry_point.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="303">
@@ -143,9 +139,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/.config_file_path" />
         <option value="$PROJECT_DIR$/properties.config.yml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -359,12 +355,12 @@
       <workItem from="1462038757581" duration="20000" />
       <workItem from="1462038780359" duration="86000" />
       <workItem from="1462038885642" duration="178000" />
-      <workItem from="1462039164428" duration="426000" />
+      <workItem from="1462039164428" duration="628000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="710000" />
+    <option name="totallyTimeSpent" value="912000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-960" y="23" width="960" height="1053" extended-state="0" />
@@ -476,14 +472,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/records.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -569,6 +557,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="303">
           <caret line="85" column="27" selection-start-line="85" selection-start-column="27" selection-end-line="85" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
           <folding />
         </state>
       </provider>

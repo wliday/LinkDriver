@@ -1,4 +1,5 @@
 properties.config.yml
 records.txt
-.config_file_path
+*.config_file_path
+.idea/
 
