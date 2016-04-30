@@ -1,0 +1,5 @@
+location:
+US States: us:0-G-ffs
+Washington DC Metro Area: us:97-G-ffs
+San Francisco Bay Area: us:84-G-ffs
+Greater New York City Area : us:70-G-ffs
