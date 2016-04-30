@@ -34,30 +34,41 @@ filters = config_reader["search"]["filters"]
 logger.info("started setting up filters")
 filters.each do |key, value|
 	case key
-	when 'type'
-		linkedin_page.search_type_selector(value).click unless value.nil?
-		Watir::Wait.while {linkedin_page.search_loading}
-		logger.info("set type as #{value}")
-	when 'relationship_to_uncheck'
-		value.split(DELIMITER).each do |val|
-			linkedin_page.search_relationship_selector(val).clear
-			logger.info("unchecked relationship #{val}")
+
+		when 'type'
+			linkedin_page.search_type_selector(value).click unless value.nil?
+
 			Watir::Wait.while {linkedin_page.search_loading}
-		end
-	when 'relationship_to_check'
-		value.split(DELIMITER).each do |val|
-			linkedin_page.search_relationship_selector(val).set
-			logger.info("checked relationship #{val}")
-			Watir::Wait.while {linkedin_page.search_loading}
-		end		
-	when 'location'
-		value.split(DELIMITER).each do |val|
-			linkedin_page.search_locations(val).set
-			logger.info("set location as #{val}")
-			Watir::Wait.while {linkedin_page.search_loading}
-		end	
-	else
-		logger.warn("Some of your filters are ignored")
+			sleep 2
+			logger.info("set type as #{value}")
+
+		when 'relationship_to_uncheck'
+			value.split(DELIMITER).each do |val|
+				linkedin_page.search_relationship_selector(val).clear
+				logger.info("unchecked relationship #{val}")
+
+				Watir::Wait.while {linkedin_page.search_loading}
+				sleep 2
+
+			end
+		when 'relationship_to_check'
+			value.split(DELIMITER).each do |val|
+				linkedin_page.search_relationship_selector(val).set
+				logger.info("checked relationship #{val}")
+
+				Watir::Wait.while {linkedin_page.search_loading}
+				sleep 2
+			end
+		when 'location'
+			value.split(DELIMITER).each do |val|
+				linkedin_page.search_locations(val).set
+				logger.info("set location as #{val}")
+
+				Watir::Wait.while {linkedin_page.search_loading}
+				sleep 3
+			end
+		else
+			logger.warn("Some of your filters are ignored")
 	end
 end
 
@@ -74,7 +85,7 @@ while true
 					index = index + 1
 					if !((li.class_name.include? "people") && (linkedin_page.name_exist? li) && (linkedin_page.description_exist? li))
 						next;
-					end	 
+					end
 					name = linkedin_page.name_of_person(li)
 					description = linkedin_page.description_of_person(li)
 					if records.exists?(name, description) then
@@ -84,7 +95,7 @@ while true
 						records.add(name, description)
 					end
 
-					if !linkedin_page.blue_button_exists?(li) then	
+					if !linkedin_page.blue_button_exists?(li) then
 						logger.debug("can not find blue button for #{name}")
 						next
 					else
@@ -111,7 +122,7 @@ while true
 				rescue
 					logger.error("Had exception during #{li.to_s}")
 					next;
-				end			
+				end
 			end
 
 			# navigate to next page
@@ -122,8 +133,9 @@ while true
 					page = page + 1
 					index = 0
 					logger.info("next page loading...")
-					sleep 2 
+
 					Watir::Wait.while {linkedin_page.search_loading}
+					sleep 5
 				else
 					break
 				end
@@ -136,7 +148,7 @@ while true
 			page = page + 1
 			index = 0
 			logger.info("next page loading...")
-			sleep 2 
+			sleep 2
 			Watir::Wait.while {linkedin_page.search_loading}
 		else
 			break
