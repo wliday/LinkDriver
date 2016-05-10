@@ -37,7 +37,7 @@ filters.each do |key, value|
 
 		when 'type'
 			linkedin_page.search_type_selector(value).click unless value.nil?
-			sleep 3
+			sleep 5
 
 			Watir::Wait.while {linkedin_page.search_loading}
       sleep 1
@@ -48,7 +48,7 @@ filters.each do |key, value|
 			value.split(DELIMITER).each do |val|
 
         linkedin_page.search_relationship_selector(val).clear
-				sleep 3
+				sleep 4
         logger.info("unchecked relationship #{val}")
 
 				Watir::Wait.while {linkedin_page.search_loading}
@@ -58,16 +58,16 @@ filters.each do |key, value|
 		when 'relationship_to_check'
 			value.split(DELIMITER).each do |val|
 				linkedin_page.search_relationship_selector(val).set
-				sleep 5
+				sleep 8
         logger.info("checked relationship #{val}")
 
 				Watir::Wait.while {linkedin_page.search_loading}
-				sleep 2
+				sleep 4
 			end
 		when 'location'
 			value.split(DELIMITER).each do |val|
 				linkedin_page.search_locations(val).set
-				sleep 5
+				sleep 8
         logger.info("set location as #{val}")
 
 				Watir::Wait.while {linkedin_page.search_loading}
